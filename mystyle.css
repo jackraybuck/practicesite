@@ -1,0 +1,63 @@
+body {
+font-family: Helvetica;
+color: white;
+background-color: rgb(20, 20, 20);
+padding: 4px 0 0 48px;
+}
+
+.bodycopy, .subhead {
+font-size: 3vw;
+width: 80%;
+margin: 0 0 0 0;
+position: relative;
+bottom: 0.7em;
+}
+
+.subhead {
+font-style: italic;
+animation-name: colorchange;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in;
+}
+
+@keyframes colorchange {
+0% {
+color: white;
+}
+50% {
+color: rgb(20, 20, 20);
+}
+100% {
+color: white;
+}
+}
+
+h1 {
+font-size: 6vw;
+}
+
+h2 {
+font-size: 4vw;
+}
+
+hr {
+width: 80%;
+text-align:left;
+margin-left: 0;
+}
+
+a {
+color:green;
+transition: color 0.5s;
+}
+
+a:hover {
+color:red;
+transform: scale(2);
+}
+
+a:active {
+color:yellow;
+}
+
